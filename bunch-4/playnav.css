@@ -1,0 +1,333 @@
+/* HTML5 DECLARATIONS */
+article, aside, footer, header, nav, section {display: block}
+
+/* BASE */
+html {height: 100%; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%} /* Force scrollbar in non-IE and Remove iOS text size adjust without disabling user zoom */
+body {margin: 0; height: 100%; -webkit-font-smoothing:antialiased; font-smoothing:antialiased; text-rendering:optimizeLegibility;} /* Improve default text rendering, handling of kerning pairs and ligatures */
+
+
+
+
+
+/* DEFAULT FONT SETTINGS */
+/* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
+/* Font-size percentage is based on 16px browser default size */
+body, button, input, select, textarea {font: 100%/1.5 Helvetica,sans-serif; font-size: 1em; color: #acacac;} /* IE7 and older can't resize px based text */
+/*p, blockquote, q, pre, address, hr, code, samp, dl, ol, ul, form, table, fieldset, menu, img {margin: 0 0 1.5em; padding: 0}
+*/
+/* TYPOGRAPHY */
+/* Composed to a scale of 12px, 14px, 16px, 18px, 21px, 24px, 36px, 48px, 60px and 72px */
+h1, h2, h3, h5 {font-family:'Nunito', sans-serif; color:#bcbec0;}
+h1 {margin: 0; font-size: 3.75em; /*line-height: 1.75em;*/ /*margin-bottom: 0.4em*/} /* 60px / 72px */
+h2 {margin: 0; font-size: 3em; line-height: 1em; margin-bottom: 0.5em} /* 48px / 48px */
+h3 {margin: 0; font-size: 2.25em; line-height: 1.3333333333333333333333333333333em; margin-bottom: 0.6667em} /* 36px / 48px */ 
+h4 {margin: 0; font-size: 1.5em; line-height: 1em; margin-bottom: 1em} /* 24px / 24px */
+h5 {margin: 0; font-size: 1.3125em; line-height: 1.1428571428571428571428571428571em; margin-bottom: 1.1428571428571428571428571428571em} /* 21px / 24px */
+h6 {margin: 0; font-size: .85em; text-align:right; line-height: 1.3333333333333333333333333333333em; margin-bottom: 1.3333333333333333333333333333333em} /* 18px / 24px */
+p {margin: 0; font-size: 1em; line-height: 1.5em; margin-bottom: 1.5em} /* 16px / 24px */
+ul{color: #636363;}
+/*/small, p.small {margin: 0; font-size: 0.875em; line-height: 1.7142857142857142857142857142857em; margin-bottom: 1.7142857142857142857142857142857em} /* 14px / 24px */
+
+h4 {font-family: 'Nunito', Helvetica, sans-serif;
+	color:#808080;
+}
+
+
+h6 {font-family:'Helvetica', sans-serif; color:#bcbec0;
+}
+
+
+/*page ID */
+.work #nav1, .contact #nav2, .resources #nav3, .playground #nav4{
+	color: #f04e23;
+
+}
+
+
+
+
+
+/*sticky footer---------------------------*/
+#wrap {
+	min-height: 100%;
+}
+
+section {
+	/*overflow: auto;*/
+	padding-bottom: 64px; /*same height as footer*/
+}
+
+footer {
+	position: relative;
+	margin-top: -64px; 
+	height: 64px;
+	clear: both;
+}
+
+/*opera fix */
+body:before {
+	content:"";
+	height:100%;
+	float:left;
+	width:0;
+	margin-top:-32767px;
+}
+
+
+
+
+
+
+/* HYPERLINKS */
+a {text-decoration: none; color:#f04e23}
+a:hover {text-decoration: none;}
+a:focus {outline: thin dotted}
+a:hover, a:active {outline: none} /* Better CSS Outline Suppression */
+
+/* MEDIA */
+img {border: 0;	-ms-interpolation-mode: bicubic} /* Improve IE's resizing of images */
+
+
+
+/* MICRO CLEARFIX HACK */
+.cf:before, .cf:after {content:"";display:table} /* For modern browsers */
+.cf:after {clear:both}
+.cf {zoom:1} /* For IE 6/7 (trigger hasLayout) */
+
+
+#icon {
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+
+#icon h1 {
+	height: 100px;
+	width: 100px;
+ 	margin: 0 auto;
+ 	margin-bottom: .2em;
+	text-indent: -9999px;
+ 	background: url("fb_logo_sm.png") no-repeat;
+}
+
+#icon h1 a {
+        display: block;
+        }
+
+@media only screen and (min-width: 320px) {
+body {
+		width: 95%; 
+	 	margin: 0 auto;
+	 	min-width: 320px;
+	    max-width: 479px;
+    }
+		
+   .main_nav {
+    	width: 95%;
+    	margin: 0 auto;
+    	height: 132px;
+    	padding-top: 10px;
+		border-bottom: 1px dotted #636363;
+    	
+    }
+
+ 
+	#logo h1 {
+ 		text-indent: -9999px;
+ 		width: 219px;
+ 		height: 100px;
+ 		margin: 0 auto;
+ 		margin-bottom: .1em;
+ 		background: url("images/logo_sm.png") no-repeat center;
+
+
+ 	}   
+
+
+ 	#logo h1 a {
+        display: block;
+        border: none;
+ 	}
+
+ 	 
+ .main_nav nav {
+		margin-left: -.5em; /*mobile size hack */
+}
+
+
+	.main_nav a {
+    	color: #636363;
+		font-family:'Nunito', sans-serif;
+		font-size: 0.85em; 
+		padding-right: .8em;
+    }
+
+    .main_nav a:hover {
+    	color: #f04e23;
+    }
+
+ 	.main_nav ul {
+		margin: 0;
+     	list-style: none;
+	}
+
+
+	.main_nav ul, li {
+   			float: left;
+
+		}
+
+	.main_nav li:last-child {
+		padding-right: 0;
+	}	
+
+
+
+
+@media only screen and (min-width: 480px) {
+	body {
+		width: 95%; 
+	 	margin: 0 auto;
+	 	min-width: 480px;
+	    max-width: 799px;
+}
+		
+/*	.main_nav {
+		height: 125px; 
+	}*/
+	.main_nav nav {
+		width: 80%;
+		margin: 0 auto;
+
+}
+
+
+	.main_nav a {
+    	color: #636363;
+		font-family:'Nunito', sans-serif;
+		font-size: .975em; 
+		padding-right: 1.1em;
+    }
+
+
+    @media only screen and (min-width: 600px) {
+	body {
+		width: 95%; 
+	 	margin: 0 auto;
+	 	min-width: 600px;
+	    max-width: 767px;
+	}
+
+
+.main_nav a {
+    	text-transform: uppercase;
+    }
+
+
+@media only screen and (min-width: 768px) { 
+	body {
+		width: 95%; 
+	 	margin: 0 auto;
+		min-width: 768px;
+		max-width: 1023px;
+	}
+	
+	.main_nav nav {
+		width: 61%;
+		margin: 0 auto;
+
+	}
+
+	/*.playnav {
+		height: 130px;
+	}
+*/
+
+
+	@media only screen and (min-width: 1024px) {
+		body {
+		width: 95%; 
+	 	margin: 0 auto;
+	 	min-width: 1024px;
+	   }
+
+	   #wrap {
+	   		width: 80%;
+	   		margin: 0 auto;
+
+	   }
+.main_nav {
+    	height: 135px;
+    	padding-top: 25px;
+    	margin: 0;
+    	border-bottom: 1px dotted #636363; /*turn off mobile border */
+    }
+
+   #logo {
+    	width: 282px;
+    }
+
+
+ 	#logo h1 {
+ 		text-indent: -9999px;
+ 		width: 282px;
+ 		height: 90px;
+ 		background: url("images/logo.png") no-repeat center;
+
+
+ 	}   
+
+
+ 	#logo h1 a {
+        display: block;
+        border: none;
+ 	}
+.main_nav nav {
+	/*	padding-top: 8px;*/
+		margin-left: 0; /* override mobile */
+		width: 100%;
+	}
+
+
+	.main_nav a {
+    	color: #636363;
+		font-family:'Nunito', sans-serif;
+		font-size: 1.2em; 
+		text-transform: none;
+		padding-right: .7em;
+    }
+
+
+    .main_nav a:hover {
+    	color: #f04e23;
+    }
+
+ 	.main_nav ul {
+     		list-style: none;
+     		padding: 0;
+     		margin-top: 8px;
+	}
+
+
+	.main_nav ul, li {
+   			float: left;
+
+		}
+
+	.main_nav li:last-child {
+		padding-right: 0;
+	}
+
+	 #icon {
+		margin: 0;
+	}
+
+/*	.playnav {
+		padding-top: 5px;
+	}
+
+	.playnav ul {
+		margin: 0;
+	}
+*/

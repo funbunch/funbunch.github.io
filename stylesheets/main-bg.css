@@ -1,0 +1,56 @@
+/*MAIN-BG.CSS*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that intializes BG Images used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------*/
+/* INTRO / HOME VARIANTS */
+/*--------------------------------------------------------------*/
+.intro-01-bg{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.intro-03-bg{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.intro-07 .welcome-stage-bg-01{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.intro-07 .welcome-stage-bg-02{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.intro-07 .welcome-stage-bg-03{
+	background-image:url('http://placehold.it/1500x1000');
+}
+
+/*--------------------------------------------------------------*/
+/* PAGES AND SECTIONS */
+/*--------------------------------------------------------------*/
+.stats-bg{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.features-bg{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.single-project-bg{
+	background-image:url('http://placehold.it/1500x1000');
+}
+.news-list-01:hover{
+	background-image:url('http://placehold.it/1500x1000') !important;
+}
+.news-list-02:hover{
+	background-image:url('http://placehold.it/1500x1000') !important;
+}
+.news-list-03:hover{
+	background-image:url('http://placehold.it/1500x1000') !important;
+}
+.news-list-04:hover{
+	background-image:url('http://placehold.it/1500x1000') !important;
+}
+
+/*--------------------------------------------------------------*/
+/* MISC ELEMENTS */
+/*--------------------------------------------------------------*/
+/*.menu-bg{
+	background:rgba(44,44,44,.95);
+}
+*/

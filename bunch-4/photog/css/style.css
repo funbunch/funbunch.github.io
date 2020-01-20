@@ -1,0 +1,372 @@
+
+body {
+    background:#232024 repeat;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+a, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.bgimage {
+    background-image: url("../images/bg.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: fixed;
+    min-height: 100%;
+    top: 0;
+    left:0;
+    position: fixed;
+}
+
+/* overwrite bootstrap styles for home page */
+.homenav {
+    background-color: rgba(230, 237, 241, .2);
+    border: none;
+}
+
+.homenav.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.homenav.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    background-color: rgba(216, 219, 221, .2);
+    color: #fff;
+}
+
+.homenav.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+
+.homenav.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    background-color: rgba(216, 219, 221, .2);
+}
+
+.homenav.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: rgba(216, 219, 221, .2);
+}
+
+/*end home style*/
+
+/* nav styles ******************/ 
+
+.navbar {
+    border-radius: 0;
+    z-index: 10;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+
+.navbar-collapse {
+    box-shadow: none;
+    padding-left: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+    color: #736c7f;
+    background-color: rgba(216, 219, 221, .2);
+}
+
+.dropdown-menu .divider {
+    background-color: rgba(216, 219, 221, .2);
+    height: 27px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    background-color: rgba(216, 219, 221, .2);
+}
+
+/* end nav */
+
+
+h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    text-align: right;
+}
+
+h2 {
+    font-size: 1.2em; font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #CDBFE3;
+
+}
+
+span {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .7em; 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+h2 a {
+    text-decoration: none;
+    color: #CDBFE3;
+}
+
+h2 a:hover, h2 a:focus {
+    color: #fff;
+
+}
+
+h4 {
+    padding: 10px 0; 
+}
+
+.main {
+    margin-top: 100px;
+}
+
+
+img {
+    width: 100%;
+    height: 239px;
+    }
+
+footer p{
+    font-size: .6em;
+    padding-top: 15px;
+}
+
+
+
+/************ Gallery *****************/
+
+a {
+    color: #fff;
+}
+
+.container #myCarousel{
+        margin: 10px;
+    }
+
+.carousel-indicators {
+    bottom: 5px;
+}
+
+.breadcrumb {
+     background-color: #232024;
+     border-radius: 0;
+     padding-left: 0;
+     margin-bottom: 15px;
+    }
+
+.breadcrumb a:hover, a:focus{
+    color: #CDBFE3;
+    text-decoration: none;
+}
+
+.gallery h1 {
+    font-size: 1.7em;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -1.5px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.gallery span{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .7em; 
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.glyphicon {
+    font-size: .7em; 
+}
+
+
+/******** Form ******************/
+#myForm {
+    margin-top: 40px;
+}
+
+.details {
+       margin-top: 45px;
+}
+
+
+label {
+    padding-bottom: 7px;
+}
+
+
+/* media Queries
+------------------------------------------- */
+
+/* MOBILE PORTRAIT */
+@media only screen and (min-width: 320px) {
+        h1 {
+        text-align: right;
+        }
+
+
+}
+
+/* MOBILE LANDSCAPE */
+@media only screen and (min-width: 480px) {
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .gallery h1 {
+        font-size: 2.5em;
+    }
+
+    .collapse {
+        display: none;
+    }
+}
+
+/* SMALL TABLET */
+@media only screen and (min-width: 600px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .gallery h1 {
+        text-align: center;
+        margin-top: 10px;   
+        margin-bottom: 10px; 
+    }
+
+    .glyphicon {
+        font-size: 1em; 
+    }
+    
+    #myForm, .details {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+}
+
+/* TABLET/NETBOOK */
+@media only screen and (min-width: 768px) { 
+    h1 {
+        font-size: 2.3em;
+    }  
+
+    .container #myCarousel{
+        margin: 20px;
+    }
+
+
+    /* overwrite bootstrap styles for larger home page */
+
+    .homenav.navbar-default .navbar-nav > li > a {
+        color: #fff;
+    }
+
+    .homenav.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #333333;
+    }
+
+    .homenav.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+        background-color: rgba(216, 219, 221, .4);
+    }
+
+    /*end home style*/
+
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+        color: #333;
+    }
+
+    .main {
+        margin-top: 100px;
+    }
+
+     #myForm, .details {
+        margin-right: 140px;
+        margin-left: 140px;
+    }
+
+    .quotes {
+        display: none;
+        position: absolute;
+        width: 430px;
+        right: 25;
+        text-align: right;
+        font-size: 1.2em;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .cite {
+        text-align: right;
+    }
+
+
+}
+
+
+/* LANDSCAPE TABLET/NETBOOK/LAPTOP */
+@media only screen and (min-width: 1024px) {
+    h1 {
+    font-size: 2.5em;
+    margin-left: 200px; 
+    text-align: left;
+    }
+
+    h4 {
+        padding: 0; 
+    }
+
+    .content {
+    margin-top: 50px;
+    }
+
+     #myForm {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .details {
+        margin-left: 8.3333%;
+        margin-right: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 1280px) { 
+/* DESKTOP */
+    .main {
+        margin-top: 140px;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .quotes {
+        font-size: 1.5em;
+    }
+
+@media only screen and (min-width: 1400px) {  
+
+    h1 {
+        margin-left: 0;
+    }
+
+}
+   
+   
+}
+

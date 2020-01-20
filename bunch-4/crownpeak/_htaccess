@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "cpv2"
+AuthUserFile "/home/steve100/.htpasswds/public_html/crownpeakv2/passwd"
+require valid-user

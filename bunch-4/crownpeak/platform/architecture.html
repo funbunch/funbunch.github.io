@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Software Architecture | CrownPeak</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="">
+
+<meta name="author" content="">
+
+<!-- Le styles -->
+<link rel="icon" type="image/x-icon" href="http://www.crownpeak.com/assets/images/favicon.ico" />
+
+<link href="../assets/css/bootstrap.css" rel="stylesheet">
+
+<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+<link href="../assets/css/docs.css" rel="stylesheet">
+
+<link href="../assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+
+<!--[if lt IE 9]>
+
+      <script src="../assets/js/html5shiv.js"></script>
+
+   <![endif]-->
+
+
+
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+<!--MAIN CONTENT-->
+
+<div id="main-content">
+
+  <!--HEADER-->
+
+  <header id="header">
+
+    <div class="container">
+
+      <!--LOGO-->
+
+      <div class="row-fluid show-grid">
+
+        <div class="span4 headerlogo">
+
+          <a href="../index.html" class="logo">CrownPeak</a>
+
+        </div>
+
+        <!--LOGO ENDS-->
+
+        <div class="span8 ">
+
+          <!--NAV-->
+
+          <div class="navbar navbar-inverse navbar-fixed-top">
+
+            <div class="navbar-inner">
+
+               <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">Menu</button>
+
+              <div class="nav-collapse collapse">
+
+                <ul class="nav">
+
+                  <li> <a href="../marketers/index.html">Marketing Solutions</a> </li>
+
+                  <li  class="active"> <a href="../platform/index.html">Platform Overview</a> </li>
+
+                  <li> <a href="../it/index.html">Benefits for IT</a> </li>
+
+                  <li> <a href="../customers">Customers</a> </li>
+
+                  <li> <a href="../partners/index.html">Partners</a> </li>
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!--NAV Ends-->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!--HEADER ENDS-->
+
+  <!--SUB MENUS-->
+
+  <div class="sub-menu">
+
+    <div class="container">
+
+      <ul>
+
+        <li><a href="index.html">Overview</a></li>
+
+        <li><a href="integration.html">Integration &amp; Development</a></li>
+
+        <li><a href="saas.html">SaaS</a></li>
+
+        <li><a href="#" class="active">Architecture</a></li>
+
+        <li><a href="management.html">Global Multi-Site Mangement</a></li>
+
+        <li><a href="developer.html">Developers</a></li>
+
+        <li><a href="deployment.html">Parallel Development &amp; Deployment</a></li>
+
+        <li><a href="digital-layer.html">Digital Experience Layer</a></li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <!--SUB MENUS ENDS-->
+
+  <!--Container-->
+
+  <div class="container">
+
+    <div class="row-fluid show-grid" id="content">
+
+      <!--Content-->
+
+      <div class="span8 right-content" id="main">
+
+        <h1 style="display:none">Digital Marketing</h1>
+
+        <h2>Architecture to Meet Marketers’ Needs</h2>
+
+        <h4>Limitless scalability, seamless integration</h4>
+
+        <div class="about-info">CrownPeak makes every aspect of creating, managing, measuring and distributing digital content globally across channels much faster and easier. To provide such an easy-to-use environment, the CrownPeak architecture is separated into two conceptual areas: content management and content delivery. This separation is key to the platform’s ability to support digital content delivery on any device via any channel, regardless of the underlying technology. This model, called decoupled deployment, allows for almost limitless scalability and seamless integration with other systems and platforms.</div>
+
+        
+
+        <h4>Decoupled deployment</h4>
+
+        <p>CrownPeak’s content deployment environment is separate from the core content functions, and operates in a high-availability cloud environment, spread across the globe. This decoupled approach allows for faster response times and almost limitless targeting opportunities using personalization, localization and behavior or event triggers.</p>
+
+        <p>Content management templates present content into elements that can be displayed in any target environment. These elements may be HTML pages, ASPX, JSP, XML, JSON, JavaScript, images, movies or anything else required for either the website experience or for delivery to external systems. These elements are transferred via secure channel to relevant hosting platform(s), which may be public-facing web servers, a digital signage solution, sales force automation system or CRM service located anywhere in the world.</p>
+
+        <p>Dynamic content is delivered via client-side or server-side integrations embedded in the content.  Personalized content, being targeted or tested for specific visitors, can be delivered via tag-based calls that retrieve dynamic content from CrownPeak servers at runtime.  Similar integrations with a wide variety of third party services are also available transparently through the CrownPeak API.</p>
+
+        <p>When delivered to the target platform, the content has no dependency on the CrownPeak environment. The result is a high level of availability for all your websites, landing pages, mobile sites and more.</p>
+
+        <h4>Eliminate extra costs</h4>
+
+        <p>With the hosted model, every time a server is added somebody has to pay for it. Every time there is an upgrade, somebody has to perform it. Every integration is a one-off, specific to a single customer. These expensive tasks are eliminated in CrownPeak–all upgrades and integrations are available to every customer at no extra cost.</p>
+
+        <h4>Content management</h4>
+
+        <li><em>Repository</em>: Houses all content assets, workflow definitions, security configuration and template elements comprising your overall CrownPeak configuration.</li>
+        <li><em>Application Layer</em>: Houses the components required to configure the end-user experience including general content management, security, workflow and publishing services.</li>
+
+      
+
+        <h4>Content delivery</h4>
+
+        <p>The content delivery section includes both a globally distributed, highly available hosted web server platform and a full suite of dynamic testing, targeting, personalization and search services.</p>
+
+        <p>During the publishing phase, content from the content management repository is rendered using templates and deployed securely to the hosted web environment. This content may be based on any industry technology standard (e.g. HTML, ASPX, PHP, JSP) or any proprietary protocol and may include as many integration points into the CrownPeak dynamic services or third party elements as the solution requires.</p>
+
+
+      </div>
+
+
+      <!--Content Ends-->
+
+      <!--SIDEBAR-->
+
+      <aside id="secondary" class="span4 sidebar">
+
+        <div class="gry-box widget">
+
+          <h3>eBook: Website Personalization</h3>
+
+          <p class="tagline">Learn the basic strategies</p>
+
+          <img src="../assets/images/book.png" alt="">
+
+          <p>Website personalization is one of the most important elements of an overall digital experience. Not sure how to get started? Download our free eBook!</p>
+
+          <a href="#" class="download">Download</a> </div>
+
+          <div class="widget">
+
+        <h3>CrownPeak Products</h3>
+
+        <a href="index.html"><img src="../assets/images/crown.jpg" alt=""></a>
+
+        
+
+        </div>
+
+        
+
+        
+
+        </div>
+
+        
+
+      </aside>
+
+      <!--SIDEBAR ENDS-->
+
+    </div>
+
+  </div>
+
+  <!--Container Ends-->
+
+    <!-- Footer
+    ================================================== -->
+  <footer class="footer mtopnone">
+    <div class="container">
+      <div class="row-fluid">
+        <div id="hide">
+          <h3>Expand Footer Menu</h3>
+        </div>
+        <div id="firstimpression" class="patientinfodivs">
+          <div class="row-fluid">
+            <div class="span6">
+              <h3>Company Information</h3>
+              <ul>
+               <li><a href="company.html">About Us</a></li>
+
+                <li><a href="#">Customers</a></li>
+
+                <li><a href="careers.html">Careers</a></li>
+
+                <li><a href="privacy.html">Privacy</a></li>
+
+                <li><a href="#">Compliance</a></li>
+
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="span6">
+              <h3>Knowledge Center</h3>
+              <ul>
+                <li><a href="#">Content Management Blog</a></li>
+                <li><a href="#">Content Marketing Blog</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Webcasts</a></li>
+                <li><a href="#">White Papers</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">eBooks</a></li>
+                <li><a href="#">Infographics</a></li>
+                <li><a href="#">Videos</a></li>
+              </ul>
+            </div>
+            <div class="span6">
+              <h3>Development Resources</h3>
+              <ul>
+                <li><a href="#">Documentation and Api</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Training</a></li>
+                <li><a href="#">Template Library</a></li>
+                <li><a href="#">Market Place</a></li>
+              </ul>
+            </div>
+            <div class="span6 newsletter">
+              <h3>Join Our Newsletter</h3>
+              <form class="form-search">
+                <input type="text" class="input-medium search-query">
+                <button type="submit" class="btn subscribe">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <div class="footer-bottom">
+  
+   <div class="container">
+   
+   <div class="row-fluid show-grid">
+              <div class="span8 f-col"><p>Copyright &copy; 2001 - 2013 <strong>CrownPeak</strong>. All right reserved.  &nbsp; &nbsp;|<a href="http://crownpeak.com/privacy.html" class="flinks"> Disclaimer </a> |&nbsp; &nbsp; <strong>Call Us 1.800.887.1944</strong></p></div>
+              <div class="span4"><a href="#" class="f-logo"><img src="assets/images/f-logo.jpg" alt=""></a></div>
+            </div>
+   
+   </div>
+  
+  </div>
+  
+</div>
+<!--MAIN CONTENT ENDS-->
+
+<!-- Le javascript
+
+    ================================================== -->
+
+<!-- Placed at the end of the document so the pages load faster -->
+
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+<script src="../assets/js/jquery.js"></script>
+
+<script src="../assets/js/jquery.royalslider.min.js"></script>
+
+<script src="../assets/js/bootstrap-transition.js"></script>
+
+<script src="../assets/js/bootstrap-alert.js"></script>
+
+<script src="../assets/js/bootstrap-modal.js"></script>
+
+<script src="../assets/js/bootstrap-dropdown.js"></script>
+
+<script src="../assets/js/bootstrap-scrollspy.js"></script>
+
+<script src="../assets/js/bootstrap-tab.js"></script>
+
+<script src="../assets/js/bootstrap-tooltip.js"></script>
+
+<script src="../assets/js/bootstrap-popover.js"></script>
+
+<script src="../assets/js/bootstrap-button.js"></script>
+
+<script src="../assets/js/bootstrap-collapse.js"></script>
+
+<script src="../assets/js/bootstrap-carousel.js"></script>
+
+<script src="../assets/js/bootstrap-typeahead.js"></script>
+
+<script src="../assets/js/bootstrap-affix.js"></script>
+
+<script src="../assets/js/holder/holder.js"></script>
+
+<script src="../assets/js/google-code-prettify/prettify.js"></script>
+
+<script src="../assets/js/application.js"></script>
+
+
+
+<!-- Analytics
+
+    ================================================== -->
+
+<script>
+
+      var _gauges = _gauges || [];
+
+      (function() {
+
+        var t   = document.createElement('script');
+
+        t.type  = 'text/javascript';
+
+        t.async = true;
+
+        t.id    = 'gauges-tracker';
+
+        t.setAttribute('data-site-id', '4f0dc9fef5a1f55508000013');
+
+        t.src = '//secure.gaug.es/track.js';
+
+        var s = document.getElementsByTagName('script')[0];
+
+        s.parentNode.insertBefore(t, s);
+
+      })();
+
+    </script>
+
+	<script>
+
+var s= jQuery.noConflict()
+
+s(document).ready(function(){
+
+  s("#hide").click(function(){
+
+    s("#firstimpression").toggle();
+
+	s("#nav").css("display","block");
+
+  });
+
+});
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1431359-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+    <script type="text/javascript">
+  /* <![CDATA[ */
+  document.write (
+    '<img src="http://marketing.crownpeak.com/acton/bn/3020/visitor.gif?ts='+
+    new Date().getTime()+
+    '&ref='+escape(document.referrer) + '">'
+  );
+  var aoAccountId = '3020';
+  var aoCookieMode = 'STANDARD';
+  var aoCookieDomain = 'crownpeak.com';
+  var aoServerContext = 'http://marketing.crownpeak.com/acton';
+  /* ]]> */
+</script>
+
+
+<!-- Begin Google Code for Site Visitors Remarketing List -->
+    <script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 1072713189;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "666666";
+    var google_conversion_label = "6EewCMSZzwEQ5ZvB_wM";
+    var google_conversion_value = 0;
+    /* ]]> */
+    </script>
+    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/1072713189/?label=6EewCMSZzwEQ5ZvB_wM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+<!-- End Google Code for Site Visitors Remarketing List -->
+ <!-- Begin On Demand Code -->
+        <script src="http://leads.demandbase.com/41253.js" type="text/javascript"></script>
+<!-- End On Demand Code -->
+ 
+<!-- Begin Salesforce Tracking Code, Place immediately before closing </BODY> tag --> 
+<!--<SCRIPT type="text/javascript" src="https://lct.salesforce.com/sfga.js"></SCRIPT> 
+<SCRIPT type="text/javascript">__sfga();</SCRIPT> -->
+<!-- End Salesforce Tracking Code, Place immediately before closing </BODY> tag --> 
+
+
+
+</body>
+
+</html>
+
