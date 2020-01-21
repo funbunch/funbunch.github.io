@@ -30,12 +30,12 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
 	<!-- For third-generation iPad with high-resolution Retina display: -->
 	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
-	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
 	<link href="style.css" rel="stylesheet" />
 
 	<!-- HTML5 IE Enabling Script & CSS3 Media Queries -->
 	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<script src="js/respond.min.js"></script><![endif]-->
 
 </head>
@@ -110,8 +110,8 @@
  		<div class="social">
 			<ul class="social-menu">
 				<li id="facebook"><a href="https://www.facebook.com/pages/BunchofIdeas/569087643105101?fref=ts" target="_blank">Facebook</a></li>
-				<li id="linkedin"><a href="http://www.linkedin.com/in/sbunch" target="_blank">LinkedIn</a></li>
-				<li id="flickr"><a href="http://www.flickr.com/ideabunch/" target="_blank">Flickr</a></li>
+				<li id="linkedin"><a href="https://www.linkedin.com/in/sbunch" target="_blank">LinkedIn</a></li>
+				<li id="flickr"><a href="https://www.flickr.com/ideabunch/" target="_blank">Flickr</a></li>
 			</ul>
 		</div>
 		

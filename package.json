@@ -1,0 +1,27 @@
+{
+  "name": "bunchofideas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ." 
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funbunch/funbunch.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/funbunch/funbunch.github.io/issues"
+  },
+  "homepage": "https://github.com/funbunch/funbunch.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

@@ -29,7 +29,7 @@
 	</div>
 	
 	<div class="footer">
-		Copyright &copy; website.com&nbsp;&nbsp; | &nbsp;&nbsp;<a href="#" onclick='redirectToLogin();'>Login</a>&nbsp;&nbsp; <a href="http://www.godaddy.com">Go Daddy</a>
+		Copyright &copy; website.com&nbsp;&nbsp; | &nbsp;&nbsp;<a href="#" onclick='redirectToLogin();'>Login</a>&nbsp;&nbsp; <a href="https://www.godaddy.com">Go Daddy</a>
 	</div>
 	
 	<script type='text/javascript'>

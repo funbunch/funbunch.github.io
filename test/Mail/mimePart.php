@@ -46,9 +46,9 @@
  * @author     Cipriano Groenendal <cipri@php.net>
  * @author     Sean Coates <sean@php.net>
  * @copyright  2003-2006 PEAR <pear-group@php.net>
- * @license    http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @license    https://www.opensource.org/licenses/bsd-license.php BSD License
  * @version    CVS: $Id: mimePart.php,v 1.25 2007/05/14 21:43:08 cipri Exp $
- * @link       http://pear.php.net/package/Mail_mime
+ * @link       https://pear.php.net/package/Mail_mime
  */
 
 
@@ -67,9 +67,9 @@
  * @author     Cipriano Groenendal <cipri@php.net>
  * @author     Sean Coates <sean@php.net>
  * @copyright  2003-2006 PEAR <pear-group@php.net>
- * @license    http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @license    https://www.opensource.org/licenses/bsd-license.php BSD License
  * @version    Release: @package_version@
- * @link       http://pear.php.net/package/Mail_mime
+ * @link       https://pear.php.net/package/Mail_mime
  */
 class Mail_mimePart {
 

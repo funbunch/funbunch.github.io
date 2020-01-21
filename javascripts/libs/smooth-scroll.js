@@ -4,13 +4,13 @@
     Animated scroll to anchor links.
 
     Script by Charlie Evans.
-    http://www.sycha.com/jquery-smooth-scrolling-internal-anchor-links
+    https://www.sycha.com/jquery-smooth-scrolling-internal-anchor-links
 
     Rebounded by Chris Ferdinandi.
-    http://gomakethings.com
+    https://gomakethings.com
 
     Free to use under the MIT License.
-    http://gomakethings.com/mit/
+    https://gomakethings.com/mit/
     
  * ============================================================= */
 
