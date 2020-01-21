@@ -19,7 +19,7 @@ Example is given below:*/
 /*#my-element { background-image: url('/images/my_image@2x.png'); background-size: 200px 100px; } */
 
 /*In the above definition, background-size stands for width and height of the high resolution image - you have to set it manually.
-For further info please visit: http://retinajs.com/ */
+For further info please visit: https://retinajs.com/ */
 
 
     .info a:hover {

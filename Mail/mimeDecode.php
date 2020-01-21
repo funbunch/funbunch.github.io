@@ -51,9 +51,9 @@
  * @author     Cipriano Groenendal <cipri@php.net>
  * @author     Sean Coates <sean@php.net>
  * @copyright  2003-2006 PEAR <pear-group@php.net>
- * @license    http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @license    https://www.opensource.org/licenses/bsd-license.php BSD License
  * @version    CVS: $Id: mimeDecode.php 288500 2009-09-21 05:32:32Z alan_k $
- * @link       http://pear.php.net/package/Mail_mime
+ * @link       https://pear.php.net/package/Mail_mime
  */
 
 
@@ -84,9 +84,9 @@ require_once 'PEAR.php';
  * @author     Cipriano Groenendal <cipri@php.net>
  * @author     Sean Coates <sean@php.net>
  * @copyright  2003-2006 PEAR <pear-group@php.net>
- * @license    http://www.opensource.org/licenses/bsd-license.php BSD License
+ * @license    https://www.opensource.org/licenses/bsd-license.php BSD License
  * @version    Release: @package_version@
- * @link       http://pear.php.net/package/Mail_mime
+ * @link       https://pear.php.net/package/Mail_mime
  */
 class Mail_mimeDecode extends PEAR
 {
@@ -757,7 +757,7 @@ class Mail_mimeDecode extends PEAR
      *
      * The DTD used for this should have been in the package. Or
      * alternatively you can get it from cvs, or here:
-     * http://www.phpguru.org/xmail/xmail.dtd.
+     * https://www.phpguru.org/xmail/xmail.dtd.
      *
      * @param  object Input to convert to xml. This should be the
      *                output of the Mail_mimeDecode::decode function
@@ -768,7 +768,7 @@ class Mail_mimeDecode extends PEAR
     {
         $crlf    =  "\r\n";
         $output  = '<?xml version=\'1.0\'?>' . $crlf .
-                   '<!DOCTYPE email SYSTEM "http://www.phpguru.org/xmail/xmail.dtd">' . $crlf .
+                   '<!DOCTYPE email SYSTEM "https://www.phpguru.org/xmail/xmail.dtd">' . $crlf .
                    '<email>' . $crlf .
                    Mail_mimeDecode::_getXML($input) .
                    '</email>';

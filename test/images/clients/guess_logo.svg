@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "https://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "https://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "https://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "https://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "https://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "https://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "https://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "https://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "https://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" xmlns:a="https://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 	 x="0px" y="0px" width="275px" height="66px" viewBox="0 0 275 66" style="enable-background:new 0 0 275 66;"
 	 xml:space="preserve">
 <style type="text/css">
@@ -22,9 +22,9 @@
 </style>
 <metadata><?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
 <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        ">
-   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <rdf:RDF xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <rdf:Description rdf:about=""
-            xmlns:dc="http://purl.org/dc/elements/1.1/">
+            xmlns:dc="https://purl.org/dc/elements/1.1/">
          <dc:format>image/svg+xml</dc:format>
          <dc:title>
             <rdf:Alt>
@@ -33,8 +33,8 @@
          </dc:title>
       </rdf:Description>
       <rdf:Description rdf:about=""
-            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
-            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/">
+            xmlns:xmp="https://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="https://ns.adobe.com/xap/1.0/g/img/">
          <xmp:MetadataDate>2016-02-11T12:17:35-08:00</xmp:MetadataDate>
          <xmp:ModifyDate>2016-02-11T12:17:35-08:00</xmp:ModifyDate>
          <xmp:CreateDate>2016-02-11T12:17:32-08:00</xmp:CreateDate>
@@ -51,9 +51,9 @@
          </xmp:Thumbnails>
       </rdf:Description>
       <rdf:Description rdf:about=""
-            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
-            xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"
-            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
+            xmlns:xmpMM="https://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stRef="https://ns.adobe.com/xap/1.0/sType/ResourceRef#"
+            xmlns:stEvt="https://ns.adobe.com/xap/1.0/sType/ResourceEvent#">
          <xmpMM:InstanceID>xmp.iid:0180117407206811822ADC6559DB0897</xmpMM:InstanceID>
          <xmpMM:DocumentID>xmp.did:0180117407206811822ADC6559DB0897</xmpMM:DocumentID>
          <xmpMM:OriginalDocumentID>uuid:5D20892493BFDB11914A8590D31508C8</xmpMM:OriginalDocumentID>
@@ -84,13 +84,13 @@
          </xmpMM:History>
       </rdf:Description>
       <rdf:Description rdf:about=""
-            xmlns:illustrator="http://ns.adobe.com/illustrator/1.0/">
+            xmlns:illustrator="https://ns.adobe.com/illustrator/1.0/">
          <illustrator:StartupProfile>Print</illustrator:StartupProfile>
       </rdf:Description>
       <rdf:Description rdf:about=""
-            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
-            xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
-            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/">
+            xmlns:xmpTPg="https://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:stDim="https://ns.adobe.com/xap/1.0/sType/Dimensions#"
+            xmlns:xmpG="https://ns.adobe.com/xap/1.0/g/">
          <xmpTPg:HasVisibleOverprint>False</xmpTPg:HasVisibleOverprint>
          <xmpTPg:HasVisibleTransparency>False</xmpTPg:HasVisibleTransparency>
          <xmpTPg:NPages>1</xmpTPg:NPages>
@@ -593,7 +593,7 @@
          </xmpTPg:SwatchGroups>
       </rdf:Description>
       <rdf:Description rdf:about=""
-            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">
+            xmlns:pdf="https://ns.adobe.com/pdf/1.3/">
          <pdf:Producer>Adobe PDF library 10.01</pdf:Producer>
       </rdf:Description>
    </rdf:RDF>
