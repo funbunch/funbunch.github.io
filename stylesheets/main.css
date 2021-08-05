@@ -1008,7 +1008,7 @@ fieldset h1 {
     padding: 0;
 }
 
-section .map-wrap {
+section.map-wrap {
 	display: none;
 }
 
