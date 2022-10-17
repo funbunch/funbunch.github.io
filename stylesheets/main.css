@@ -65,6 +65,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*Overide default style*/
+
 .font5 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
@@ -851,10 +852,10 @@ h1,h2,h3,h4,h5,h6{
 }
 .aux-icon-btn:hover  > span{
     -webkit-transition: all .8s linear;
-       -moz-transition: all .8s linear;
-        -ms-transition: all .8s linear;
-         -o-transition: all .8s linear;
-            transition: all .8s linear;
+			-moz-transition: all .8s linear;
+			-ms-transition: all .8s linear;
+				-o-transition: all .8s linear;
+					transition: all .8s linear;
 }
 
 /*CONTACT*/
