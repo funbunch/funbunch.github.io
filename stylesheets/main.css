@@ -859,46 +859,49 @@ h1,h2,h3,h4,h5,h6{
 }
 
 /*CONTACT*/
-
-.contact{
-}
-.contact-form{
-}
 /*contact form*/
-
+.contact p {
+	font-family: Montserrat,serif;
+	margin-top: 0;
+}
 .email-wrap{
 	padding-top: 20px;
 }
+
+#contact-form{
+	font-family: Montserrat,serif;
+}
+
 .contact-mail{
 	font-size: 18px;
 	line-height: 25px;font-weight:300;
 }
 
 input {
-    background: transparent !important;
-    border: none !important;
-    border-bottom: 2px solid !important;
-    border-radius: 0px !important;
-    box-shadow: none !important;
-    font-size: 14px !important;
-    font-weight: 300 !important;
-    line-height: 25px !important;
-    height: 50px !important;
-    margin-bottom: 10px !important;
-    padding: 10px 0 !important;
-    width: 100%;
-	-webkit-transition: all .8s linear;
-	   -moz-transition: all .8s linear;
-		-ms-transition: all .8s linear;
-		 -o-transition: all .8s linear;
-			transition: all .8s linear;
+	background: transparent !important;
+	border: none !important;
+	border-bottom: 2px solid !important;
+	border-radius: 0px !important;
+	box-shadow: none !important;
+	font-size: 14px !important;
+	font-weight: 300 !important;
+	line-height: 25px !important;
+	height: 50px !important;
+	margin-bottom: 10px !important;
+	padding: 10px 0 !important;
+	width: 100%;
+-webkit-transition: all .8s linear;
+	-moz-transition: all .8s linear;
+-ms-transition: all .8s linear;
+	-o-transition: all .8s linear;
+	transition: all .8s linear;
 }
 input:focus, textarea:focus {
-	-webkit-transition: all .8s linear;
-	   -moz-transition: all .8s linear;
-		-ms-transition: all .8s linear;
-		 -o-transition: all .8s linear;
-			transition: all .8s linear;
+-webkit-transition: all .8s linear;
+		-moz-transition: all .8s linear;
+	-ms-transition: all .8s linear;
+		-o-transition: all .8s linear;
+		transition: all .8s linear;
 }
 textarea {
     background: transparent !important;
@@ -975,16 +978,15 @@ fieldset h1 {
 	margin-left: 1%;
 }
 
-
 .alert{
 	margin-top: 0px;
 	border-radius: 0px;
 	padding: 5px;
 	-webkit-transition: all .8s linear;
-	   -moz-transition: all .8s linear;
-		-ms-transition: all .8s linear;
-		 -o-transition: all .8s linear;
-			transition: all .8s linear;
+		-moz-transition: all .8s linear;
+	-ms-transition: all .8s linear;
+		-o-transition: all .8s linear;
+		transition: all .8s linear;
 }
 .alert > p{
 	text-shadow:none;
