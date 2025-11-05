@@ -28,12 +28,22 @@
     <link href="stylesheets/pace.preloader.css" rel="stylesheet">
     <link href="stylesheets/navmenu.css" rel="stylesheet">
     <link href="stylesheets/meanmenu.css" rel="stylesheet" />
+
     <!-- Main Template Styles -->
     <link href="stylesheets/main.css" rel="stylesheet">
     <link href="stylesheets/less-compiled.css" rel="stylesheet">
+    <!-- Main Template BG Images -->
+    <link href="stylesheets/main-bg.css" rel="stylesheet">
     <!-- Main Template Responsive Styles -->
     <link href="stylesheets/main-responsive.css" rel="stylesheet">
-
+    <!-- Main Template Retina Optimizaton Rules -->
+    <link href="stylesheets/main-retina.css" rel="stylesheet">
+    <!-- LESS stylesheet for managing color presets -->
+    <link rel="stylesheet/less" type="text/css" href="less/color.less">
+    <!-- LESS stylesheet for managing font presets -->
+    <link rel="stylesheet/less" type="text/css" href="less/fonts.less">
+    <!-- LESS JS engine-->
+    <script src="less/less-1.7.3.min.js"></script>
     <!-- Google Web Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,400italic,300italic,700,700italic|Inconsolata:400,700%7CRaleway:400,300,700,900%7COpen+Sans:400,300,700,800%7CMontserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -116,7 +126,7 @@
         <div class="container">
             <div class="row">
             <article class="col-md-12 text-left">
-               <a href="index.html"> <a href="index.html"><img alt="Bunch of Ideas" title="Bunch of Ideas" class="main-logo img-responsive" src="images/logo@2x.png" width="600" height="70"/></a></a>
+                <a href="index.html"><img alt="Bunch of Ideas" title="Bunch of Ideas" class="main-logo img-responsive" src="images/logo@2x.png" width="600" height="70"/></a>
             </article>
             </div>
         </div>
@@ -128,19 +138,18 @@
             <div class="container">
                 <div class="row">
                     <article class="text-left col-md-12">
-                        <div class="welcome add-top-quarter">
-                            <h1 class="font3 black">Agency: Advisor Launchpad</h1>
-                            <h3 class="font2 dark">Client: Underwood</h2>
-                            <h2 class="font2 dark"><span class="font2 weight-light dark">Web</span></h2>
-                        </div>
-                    </article>
+                      <div class="welcome add-top-quarter">
+                        <h1 class="font3 black">Bookworm Reads</h1>
+                        <h3 class="font2 dark"><span class="font2 weight-light dark">Web</span></h3>
+                      </div>
+                  </article>
                 </div>
                 <div class="row">
-                    <article class="text-left col-md-12 hidden-lg">
-                        <div class="btn-wrap">
-                            <a class="btn btn-seven btn-seven-dark" href="https://www.underwoodrm.com/" target="_blank">Underwood</a>
-                        </div>
-                    </article>
+                  <article class="text-left col-md-12 hidden-lg">
+                      <div class="btn-wrap">
+                          <a class="btn btn-seven btn-seven-dark btn-long" href="https://www.bookwormreads.co/" target="_blank">Bookworm Reads</a>
+                      </div>
+                  </article>
                 </div>
             </div>
         </section>
@@ -149,28 +158,36 @@
                 <div class="row">
                     <article class="text-left col-md-12">
                         <h1 class="sub-heading"><span class="dark font4">About Project.</span></h1>
-                        <p class="promo-text dark font2 weight-light add-middle-quarter black">Custom website for Advisor Launchpad client.</p>
+                        <p class="promo-text dark font2 weight-light add-middle-quarter black">A book tracker and social app with more color, more community, and zero Amazon.</p>
                     </article>
                 </div>
 
                 <div class="row">
                     <article class="text-left col-md-12 hidden-md hidden-sm hidden-xs">
                         <div class="btn-wrap">
-                            <a class="btn btn-seven btn-seven-dark" href="https://www.underwoodrm.com/" target="_blank">Underwood</a>
+                            <a class="btn btn-seven btn-seven-dark" href="https://www.bookwormreads.co/" target="_blank">Bookwork Reads</a>
                         </div>
                     </article>
                 </div>
 
                 <div class="row add-top-half">
 
-                    <article class="col-md-12 text-center">
+                  <article class="col-xs-12 col-sm-6 text-center">
 
-                        <a data-gall="portfolio-gallery" href="https://www.underwoodrm.com/" target="_blank">
-                            <img alt="" title="" class="img-responsive" src="images/underwood.jpg"/>
+                        <a data-gall="portfolio-gallery" href="https://www.bookwormreads.co/" target="_blank">
+                            <img alt="" title="" class="img-responsive" src="images/work/bookworm.jpg"/>
                         </a>
 
                     </article>
+                    <article class="hidden-xs col-sm-6 text-center">
+
+                      <a data-gall="portfolio-gallery" href="https://www.bookwormreads.co/" target="_blank">
+                          <img alt="" title="" class="img-responsive" src="images/work/bookworm-mob.jpg"/>
+                      </a>
+
+                  </article>
                 </div>
+
             </div>
         </section>
         <section id="clients" class="page page-section clients color-bg">
@@ -178,7 +195,7 @@
                 <div class="row">
                     <article class="col-md-2 col-md-offset-3 text-center">
                         <div class="aux-icon-btn-wrap">
-                            <a class="aux-icon-btn black font2" href="project-3.html"><span class="glyphicon glyphicon-arrow-left black"></span><br>Prev</a>
+                            <a class="aux-icon-btn black font2" href="project-11.html"><span class="glyphicon glyphicon-arrow-left black"></span><br>Prev</a>
                         </div>
                     </article>
                     <article class="col-md-2 text-center">
@@ -188,7 +205,7 @@
                     </article>
                     <article class="col-md-2 text-center">
                         <div class="aux-icon-btn-wrap">
-                            <a class="aux-icon-btn black font2" href="project-5.html"><span class="glyphicon glyphicon-arrow-right black"></span><br>Next</a>
+                            <a class="aux-icon-btn black font2" href="qb-payroll.html"><span class="glyphicon glyphicon-arrow-right black"></span><br>Next</a>
                         </div>
                     </article>
                 </div>
@@ -197,7 +214,7 @@
     </section>
     <!-- Master Wrap : ends -->
     <section class="mastfoot space-top">
-        <div class="container-fluid">
+        <div class="container-fluid"> 
             <div class="row">
                 <article class="text-left col-md-6 dark-bg text-center">
                     <div class="valign">
@@ -214,7 +231,6 @@
                     <article class="text-right col-md-6 white-bg text-center">
                         <div class="valign">
                             <p class="credits font2 dark">Bunch of Ideas.
-                                <br/>Copyright &copy; 2016</p>
                         </div>
                     </article>
         </div>
@@ -232,12 +248,23 @@
     <script src="javascripts/libs/jquery.backstretch.min.js"></script>
     <script src="javascripts/libs/jquery.meanmenu.js"></script>
     <script src="javascripts/libs/equalheights.js"></script>
+    <script src="javascripts/libs/jquery.bxslider.min.js"></script>
     <!-- JS Custom Codes -->
     <script src="javascripts/custom/navmenu-init.js"></script>
     <script src="javascripts/custom/backstretch-init.js"></script>
     <script src="javascripts/custom/equalheights-init.js"></script>
     <script src="javascripts/custom/main.js"></script>
-
+    <script>
+    $(document).ready(function() {
+        $('.bxslider').bxSlider({
+            preloadImages: 'visible',
+            touchEnabled: true,
+            responsive: true,
+            pager: false,
+            controls: true
+        });
+    });
+    </script>
 </body>
 
 </html>
