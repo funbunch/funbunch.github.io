@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
+    "start": "live-server .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d ." 
-},
+    "deploy": "gh-pages -d ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/funbunch/funbunch.github.io.git"
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/funbunch/funbunch.github.io#readme",
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "gh-pages": "^2.2.0",
+    "live-server": "^1.2.2"
   }
 }
