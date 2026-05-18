@@ -28,8 +28,18 @@ body
 a, a:hover, a:focus{
 	text-decoration: none;
 }
-a:focus {
-  outline: none;
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+}
+.skip-nav:focus {
+  top: 0;
 }
 .animated{
 	visibility: hidden;
