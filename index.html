@@ -59,7 +59,7 @@
 </head>
 
 
-<body>
+<body class="page-home">
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHPKL43J"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -176,6 +176,11 @@
     </section>
     <!-- Master Wrap : ends -->
 
+    <!-- mobile/tablet background image -->
+    <div class="hidden-lg mobile-bg-wrapper">
+        <img src="images/bg/dt-bw.jpg" alt="Los Angeles skyline" style="width:100%;display:block;">
+    </div>
+
     <section class="mastfoot space-top">
         <div class="container-fluid">
             <div class="row">
@@ -191,7 +196,7 @@
                         </div>
 
                     </article>
-                    <article class="text-right col-md-6 white-bg text-center">
+                    <article class="text-right col-md-6 white-bg text-center visible-lg-block">
                         <div class="valign">
                             <p class="credits font2 dark hidden-xs">Bunch of Ideas.</p>
                         </div>
@@ -223,16 +228,10 @@
 
     <script>
         $(document).ready(function(){
-
-        //Here is an example of how to use Backstretch as a slideshow.
-        //Just pass in an array of images, and optionally a duration and fade value.
-        // Duration is the amount of time in between slides,
-        // and fade is value that determines how quickly the next image will fade in
-          $.backstretch([
-              "images/bg/dt-bw.jpg"
-          ]);
-
-        })
+          if (window.matchMedia("(min-width: 1200px)").matches) {
+              $.backstretch(["images/bg/dt-bw.jpg"]);
+          }
+        });
     </script>
 
 </body>
