@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/funbunch/funbunch.github.io#readme",
   "devDependencies": {
-    "gh-pages": "^2.2.0",
+    "gh-pages": "^6.3.0",
     "live-server": "^1.2.2"
   }
 }
