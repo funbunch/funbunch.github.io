@@ -88,7 +88,7 @@
 
       <article class="col-md-12 fullheight nav-list-holder">
         <div class="valign">
-          <nav class="nav-item-wrap">
+         <nav class="nav-item-wrap" aria-label="Primary navigation">
             <img alt="Bunch of Ideas" title="Bunch of Ideas" class="nav-logo img-responsive" src="images/gear@2x.png" width="90px" height="90px" />
               <ul class="main-nav-menu main-nav-menu-effect font4">
                   <li class="trigger-sub-nav">
@@ -123,7 +123,7 @@
 
 
     <!-- mobile only navigation : starts -->
-    <nav class="mobile-nav hidden-lg">
+    <nav class="mobile-nav hidden-lg" aria-label="Mobile navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="#">About</a>
@@ -181,7 +181,7 @@
         <img src="images/bg/dt-bw.jpg" alt="Los Angeles skyline" style="width:100%;display:block;">
     </div>
 
-    <section class="mastfoot space-top">
+    <footer class="mastfoot space-top" aria-label="Site footer">
         <div class="container-fluid">
             <div class="row">
                     <article class="text-left col-md-6 dark-bg text-center">
@@ -203,7 +203,7 @@
                     </article>
             </div>
         </div>
-    </section>
+    </footer>
 
 
 
@@ -230,6 +230,7 @@
         $(document).ready(function(){
           if (window.matchMedia("(min-width: 1200px)").matches) {
               $.backstretch(["images/bg/dt-bw.jpg"]);
+              $('.backstretch img').attr({ alt: '', role: 'presentation' });
           }
         });
     </script>
