@@ -55,6 +55,7 @@
 </head>
 
 <body>
+    <a href="#mastwrap" class="skip-nav">Skip to main content</a>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHPKL43J"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -65,11 +66,11 @@
     <div class="sticky-border sticky-border-left"></div>
     <!-- main navigation trigger -->
     <div class="main-nav visible-lg">
-        <div class="mobile-toggle">
+        <button class="mobile-toggle" aria-label="Open navigation menu" aria-expanded="false">
             <span></span>
             <span></span>
             <span></span>
-        </div>
+        </button>
     </div>
     <!-- main menu : starts -->
     <section class="menu-panel menu-bg fullheight">
@@ -87,7 +88,6 @@
                                 <div class="sub-nav">
                                     <a href="about.html">about</a>
                                     <a href="services.html">services</a>
-                                    <a href="resources.html">resources</a>
                                 </div>
                             </li>
                             <li class="trigger-sub-nav">
@@ -114,7 +114,6 @@
             <ul>
               <li><a href="about.html">About</a></li>
               <li><a href="services.html">Services</a></li>
-              <li><a href="resources.html">Resources</a></li>
             </ul>
           </li>
           <li><a href="#">Portfolio</a>
@@ -138,7 +137,7 @@
     </header>
     <!-- masthead-section:ends -->
     <!-- Master Wrap : starts -->
-    <section id="mastwrap" class="mastwrap slant-bottom slant-bottom-color">
+    <main id="mastwrap" class="mastwrap slant-bottom slant-bottom-color">
         <section id="contact" class="contact pad-bottom white-bg">
             <div class="container">
                 <div class="row">
@@ -160,23 +159,26 @@
                 <div class="row">
                     <article class="col-md-12 main-caps text-left">
                         <div class="contact-item">
-                            <div class="alert alert-error error white-bg" id="fname">
+                            <div class="alert alert-error error white-bg" id="fname" role="alert" aria-live="polite" aria-atomic="true">
                                 <p class="dark">Name must not be empty</p>
                             </div>
-                            <div class="alert alert-error  error white-bg" id="fmail">
+                            <div class="alert alert-error  error white-bg" id="fmail" role="alert" aria-live="polite" aria-atomic="true">
                                 <p class="dark">Please provide a valid email</p>
                             </div>
-                            <div class="alert alert-error  error white-bg" id="fmsg">
+                            <div class="alert alert-error  error white-bg" id="fmsg" role="alert" aria-live="polite" aria-atomic="true">
                                 <p class="dark">Message should not be empty</p>
                             </div>
                             <form name="myform" id="contactForm" action="https://formsubmit.co/872adc7bc5d9518ceacd52085354d094" enctype="multipart/form-data" method="post">
                                 <article>
+                                    <label for="name" class="sr-only">Your Name</label>
                                     <input type="text" placeholder="Your Name" id="name" name="name" size="100" class="border-form dark">
                                 </article>
                                 <article>
+                                    <label for="email" class="sr-only">Email address</label>
                                     <input type="text" placeholder="Email address" name="email" id="email" size="30" class="border-form dark">
                                 </article>
                                 <article>
+                                    <label for="msg" class="sr-only">Your Message</label>
                                     <textarea placeholder="Your Message" name="message" cols="40" rows="5" id="msg" class="border-form dark"></textarea>
                                     <div class="btn-wrap  text-left">
                                         <button class="btn btn-seven btn-seven-dark" id="submit" name="submit" type="submit">Send Message</button>
@@ -188,7 +190,7 @@
                 </div>
             </div>
         </section>
-    </section>
+    </main>
     <!-- Master Wrap : ends -->
     <section class="mastfoot space-top">
         <div class="container-fluid">
@@ -197,7 +199,7 @@
                     <div class="valign">
                         <ul class="foot-social">
                             <li>
-                                <a href="https://github.com/funbunch"><img src="images/social/git@2x.png"  width="40px" height="40px" title="github" alt="linkedin"></a>
+                                <a href="https://github.com/funbunch"><img src="images/social/git@2x.png"  width="40px" height="40px" title="github" alt="github"></a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/in/sbunch"><img src="images/social/in@2x.png"  width="40px" height="40px" title="linkedin" alt="linkedin"></a>

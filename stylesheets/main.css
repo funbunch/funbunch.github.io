@@ -28,8 +28,18 @@ body
 a, a:hover, a:focus{
 	text-decoration: none;
 }
-a:focus {
-  outline: none;
+.skip-nav {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+}
+.skip-nav:focus {
+  top: 0;
 }
 .animated{
 	visibility: hidden;
@@ -1065,4 +1075,27 @@ section.map-wrap {
         -ms-transform: none !important;
         transform: none !important;
     }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* ACCESSIBILITY — COLOR CONTRAST FIXES */
+/* less-compiled.css sets a:hover{color:#FFE44A} globally — yellow on white is 1.28:1 (FAIL). */
+/* These overrides restore readable contrast on light backgrounds. Nav hover stays yellow */
+/* because .main-nav-menu a:hover has its own rule on the dark panel background. */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Text selection: keep yellow bg, swap white text → dark (9.75:1 AAA) */
+::selection { background-color: #FFE44A; color: #343434 !important; }
+::-moz-selection { background-color: #FFE44A; color: #343434 !important; }
+
+/* Link hover in content areas: #mastwrap ID gives higher specificity than global a:hover */
+#mastwrap a:hover {
+    color: #343434;
+    text-decoration: underline;
+}
+
+/* Works filter active state: yellow (#FFE44A) on off-white is 1.14:1 (FAIL). */
+/* #7A6000 dark gold = 5.36:1 on off-white, 6.00:1 on white — AA both. */
+.works-filter li a.active > span {
+    color: #7A6000 !important;
 }
